@@ -38,18 +38,80 @@ HTML <head>、權限設定等
 - 打開 fnc.php > 查看 function isLoginFnc()
 
 
-## <style>
+## style
 
 ```
 divMap {} K7-7F 地圖
 divMap2 {} K5-1F 地圖
-
-
-
-
+divMap3 {} K7_5FMAP
+divPoint {} （異常 / 斷線）
 
 ```
 
+
+
+### <header class="topbar">：上方導覽列（Top Bar）
+```
+上方黑色（或深色）導覽列
+
+skin5：主題配色
+
+navbar-expand-md：中尺寸以上才展開
+```
+
+
+
+### navbar-brand 左上角：Logo + 系統名稱
+```
+系統名稱：B3 eRack
+點 Logo 會回首頁 index.php
+這整套就是 B3 廠 eRack Map 監控系統
+```
+
+
+### nav-toggler Mobile 專用按鈕（RWD）
+
+``` php
+<a class="nav-toggler d-block d-md-none">
+<a class="topbartoggler d-block d-md-none">
+```
+
+```
+👉 只有在手機 / 平板才會出現
+👉 用來：
+
+展開側邊欄
+
+展開右上選單
+
+```
+
+### echo sprintf 右上角：登入者資訊
+``` php
+<?PHP
+    echo sprintf("Hi, %s", $_SESSION["idno"]);
+?>
+```
+
+### dropdown-item 登出功能
+
+
+```
+登出不是直接跳頁
+
+而是 JS function
+
+
+
+通常內容會是：
+
+function userLogout(){
+    location.href = "logout.php";
+}
+
+或 AJAX 清 session。
+
+```
 
 
 
