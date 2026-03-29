@@ -11,7 +11,7 @@ XAMPP
 
 
 ```
-## XAMPP (改 Port)
+## XAMPP 
 
 ## XAMPP 故障解決方案
 ```
@@ -24,7 +24,7 @@ http"//localhost:82/index.pxp ;
 
 ```
 
-### XAMPP
+### XAMPP (改 Port)
 
 ```
 1. 打開：
