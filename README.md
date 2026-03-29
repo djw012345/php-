@@ -13,7 +13,7 @@ XAMPP
 ```
 ## XAMPP
 
-### XAMPP 故障解決方案
+## XAMPP 故障解決方案
 ```
 1. 管理員運行
 2. 關閉本地的齊發Web服務，或佔用80/443端口的服務，例如vmware-host 服務;
@@ -22,13 +22,28 @@ XAMPP
 http"//localhost:82/index.pxp ;
 4. 卸載之前自己安裝的apache/mysql等版本;
 
+```
 
+### XAMPP
+
+```
+1. 打開：
+XAMPP → Apache → Config → httpd.conf
+
+2. 找到：
+Listen 80
+改成：Listen 8080
+
+3. 找：
+ServerName localhost:80
+改成： ServerName localhost:8080
+
+4. 使用方式改成：
+http://localhost:8080
 
 
 
 ```
-
-
 
 
 
