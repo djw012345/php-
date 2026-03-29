@@ -11,6 +11,24 @@ XAMPP
 
 
 ```
+## XAMPP
+
+### XAMPP 故障解決方案
+```
+1. 管理員運行
+2. 關閉本地的齊發Web服務，或佔用80/443端口的服務，例如vmware-host 服務;
+3. 進入[config]文件,修改apache的默認80/443,例如80修改82, 重啟XAMPP
+並管理員運行，之後訪問本地站點時，都需要加上端口號，例如
+http"//localhost:82/index.pxp ;
+4. 卸載之前自己安裝的apache/mysql等版本;
+
+
+
+
+
+```
+
+
 
 
 
