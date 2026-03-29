@@ -6,6 +6,10 @@ VS Code
 VS Code環境插件: PHP Intelephense
 
 
+[伺服器]
+XAMPP
+
+
 ```
 
 
