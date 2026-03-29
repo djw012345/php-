@@ -11,7 +11,7 @@ XAMPP
 
 
 ```
-## XAMPP [改 Port]
+## XAMPP (改 Port)
 
 ## XAMPP 故障解決方案
 ```
