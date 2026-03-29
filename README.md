@@ -1,6 +1,10 @@
 # php-
 
+# 開發環境
 ```
+VS Code
+VS Code環境插件: PHP Intelephense
+
 
 ```
 
